@@ -1,0 +1,400 @@
+/* Device Responsive Section Starts Here */
+/* Mini Device Or Mobile Device Responsive Section Starts Here */
+@media screen and (max-width:576px) {
+
+    /* Header Section Responsive Decoration Starts Here */
+    .navigation-bar {
+        flex-direction: column;
+        padding: 38px 10px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+    .nav li {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .follow-btn {
+        margin-top: 60px;
+    }
+
+    /* Header Section Responsive Decoration Ends Here */
+
+    /* Banner Section Responsive Decoration Starts Here */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title-1 {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .banner-title-2 {
+        font-size: 5rem;
+    }
+
+    .banner-content {
+        padding: 10px;
+    }
+
+    .banner-container img {
+        width: 100%;
+    }
+
+    /* Banner Section Responsive Decoration Ends Here */
+
+    /* Another Banner Section Responsive Decoration Starts Here */
+    .another-banner-container {
+        flex-direction: column;
+    }
+
+    .another-banner-container img {
+        width: 100%;
+    }
+
+    .another-banner-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .another-banner-title {
+        font-size: 2rem;
+    }
+
+    .simple-text {
+        text-align: justify;
+        padding: 5px;
+    }
+
+    /* Another Banner Section Responsive Decoration Ends Here */
+
+    /* Video Card Section Responsive Decoration Ends Here */
+    .video-card {
+        grid-template-columns: 1fr;
+    }
+
+    .funny-video-container-title {
+        font-size: 2rem;
+    }
+
+    .funny {
+        font-size: 2rem;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .watch-btn {
+        width: 100%;
+    }
+
+    /* Video Card Section Responsive Decoration Ends Here */
+
+    /* Play Game Section Responsive Decoration Starts Here */
+    .play-game-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .play-game-main-pic {
+        width: 300px;
+    }
+
+    .small-img {
+        width: 30%;
+        height: 30%;
+        top: 75%;
+        left: -5%;
+    }
+
+    /* Play Game Section Responsive Decoration Ends Here */
+
+    /* Play Second Game Section Responsive Decoration Starts Here */
+    .play-second-game-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .play-game-second-main-pic {
+        width: 300px;
+    }
+
+    .small-second-img {
+        width: 30%;
+        height: 50%;
+        top: 63%;
+        left: 60%;
+    }
+
+    /* Play Second Game Section Responsive Decoration Ends Here */
+
+    /* Career Section Responsive Decoration Starts Here */
+    .career-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .career-list {
+        gap: 10px;
+    }
+
+    .left-list,
+    .right-list {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* Career Section Responsive Decoration Ends Here */
+
+    /* Games Section Responsive Decoration Starts Here */
+    .games-content {
+        padding: 20px;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .games-content li {
+        font-size: .5rem;
+    }
+
+    .games-content li img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Games Section Responsive Decoration Ends Here */
+
+    /* Footer Section Responsive Decoration Starts Here */
+    .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icon-list {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer Section Responsive Decoration Ends Here */
+}
+
+/* Mini Device Or Mobile Device Responsive Section Ends Here */
+
+/* Maximum Device Or Tablet Device Responsive Section Starts Here */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* Header Section Responsive Decoration Starts Here */
+    .navigation-bar {
+        flex-direction: column;
+        padding: 38px 10px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+    .nav li {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .follow-btn {
+        margin-top: 60px;
+    }
+
+    /* Header Section Responsive Decoration Ends Here */
+
+    /* Banner Section Responsive Decoration Starts Here */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title-1 {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .banner-title-2 {
+        font-size: 5rem;
+    }
+
+    .banner-content {
+        padding: 10px;
+    }
+
+    .banner-container img {
+        width: 100%;
+    }
+
+    /* Banner Section Responsive Decoration Ends Here */
+
+    /* Another Banner Section Responsive Decoration Starts Here */
+    .another-banner-container {
+        flex-direction: column;
+    }
+
+    .another-banner-container img {
+        width: 100%;
+    }
+
+    .another-banner-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .another-banner-title {
+        font-size: 2rem;
+    }
+
+    .simple-text {
+        text-align: justify;
+        padding: 5px;
+    }
+
+    /* Another Banner Section Responsive Decoration Ends Here */
+
+    /* Video Card Section Responsive Decoration Ends Here */
+    .video-card {
+        grid-template-columns: 1fr;
+    }
+
+    .funny-video-container-title {
+        font-size: 2rem;
+    }
+
+    .funny {
+        font-size: 2rem;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+
+    .watch-btn {
+        width: 100%;
+    }
+
+    /* Video Card Section Responsive Decoration Ends Here */
+
+
+    /* Play Game Section Responsive Decoration Starts Here */
+    .play-game-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .play-game-main-pic {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .small-img {
+        width: 30%;
+        height: 30%;
+        top: 75%;
+        left: 0;
+    }
+
+
+    /* Play Game Section Responsive Decoration Ends Here */
+
+    /* Play Second Game Section Responsive Decoration Starts Here */
+    .play-second-game-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .play-game-second-main-pic {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .small-second-img {
+        width: 25%;
+        height: 30%;
+        top: 70%;
+        right: 0;
+    }
+
+    /* Play Second Game Section Responsive Decoration Ends Here */
+
+
+    /* Career Section Responsive Decoration Starts Here */
+    .career-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .career-list {
+        gap: 10px;
+    }
+
+    .left-list,
+    .right-list {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* Career Section Responsive Decoration Ends Here */
+
+    /* Games Section Responsive Decoration Starts Here */
+    .games-content {
+        padding: 20px;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .games-content li {
+        font-size: .5rem;
+    }
+
+    .games-content li img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Games Section Responsive Decoration Ends Here */
+
+    /* Footer Section Responsive Decoration Starts Here */
+    .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icon-list {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-menu2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer Section Responsive Decoration Ends Here */
+
+}
+
+/* Maximum Device Or Tablet Device Responsive Section Ends Here */
+
+/* Device Responsive Section Ends Here */

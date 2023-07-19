@@ -1,0 +1,646 @@
+/* Shared Section Decoration Starts Here */
+:root {
+    --primary-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --blue-violet: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --blue: #0B0223;
+    --gray: #534C64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Shared Section Decoration Ends Here */
+
+/* Header Section Decoration Starts Here */
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    padding: 20px 50px;
+    margin: 0 auto;
+}
+
+.brand-identity {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.brand-identity img {
+    max-width: 85px;
+}
+
+.brand-identity p {
+    color: var(--blue);
+}
+
+.gamer {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.zone {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+}
+
+.nav li {
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.follow-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 16px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3C354F;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    border: 0;
+}
+
+.follow-btn img {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+
+/* Header Section Decoration Ends Here */
+
+/* Main Section Decoration Starts Here */
+
+/* Banner Section Decoration Starts Here */
+.banner {
+    padding: 0 20px;
+    background: linear-gradient(rgba(140, 87, 238, 0.03) 0%, rgba(255, 255, 255, 0.03) 100%);
+    background-image: url('resource/Group\ 14.png');
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner-container img {
+    width: 700px;
+}
+
+.banner-content p {
+    color: var(--gray);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.banner-title-1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.banner-title-2 {
+    font-size: 5.93rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.small-btn {
+    margin-right: 10px;
+}
+
+.btn-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.signin {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    color: #FFF;
+    border-radius: 40px;
+    background: var(--primary-color);
+    border: 0;
+    margin-right: 25px;
+}
+
+.gorogue {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    color: #FFF;
+    border-radius: 40px;
+    background: #4EC5F7;
+    border: 0;
+}
+
+/* Banner Section Decoration Ends Here */
+
+/* Another Banner Section Decoration Starts Here */
+.another-banner {
+    padding: 90px 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.another-banner-container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.another-banner-content {
+    width: 520px;
+    text-align: right;
+}
+
+.another-banner-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 24px;
+}
+
+.another-banner-content .know-more {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.simple-text {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.our {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Another Banner Section Decoration Ends Here */
+
+/* Video Card Section Decoration Starts Here */
+.funny-video {
+    margin-top: 120px;
+}
+
+.funny-video-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.funny-video-container-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.funny {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-video-container-description {
+    margin: 20px 0;
+    text-align: center;
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.video-card {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.video-card p {
+    margin-top: 25px;
+    text-align: justify;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-img img {
+    width: 342px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.card-img {
+    display: flex;
+    position: relative;
+}
+
+.watch-btn .watch {
+    font-size: 20px;
+    color: #ff59b0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.watch-btn {
+    position: absolute;
+    width: 342px;
+    height: 400px;
+    text-align: center;
+    background-image: linear-gradient(to left, #000000c2, #343232bf);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    visibility: 5%;
+    font-size: 3rem;
+    border: 5px solid #FF42A5;
+    border-radius: 14px;
+    cursor: pointer;
+    left: -999999999px;
+    transition: all 0.2s ease-in;
+}
+
+.card-img:hover .watch-btn {
+    left: 0;
+}
+
+/* Video Card Section Decoration Ends Here */
+
+/* Play Game Section Decoration Starts Here */
+.play-game {
+    background: #FFF;
+}
+
+.play-game-container {
+    max-width: 1440px;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    text-align: right;
+}
+
+.play-game-content {
+    max-width: 353px;
+    margin: 0 auto;
+}
+
+.play-game-content p {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.play-game-title {
+    text-align: right;
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.play-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-game-online {
+    display: flex;
+    position: relative;
+}
+
+.small-img {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 60%;
+    left: -25%;
+}
+
+/* Play Game Section Decoration Ends Here */
+
+/* Play Second Game Section Decoration Starts Here */
+.play-second-game {
+    margin-top: 50px;
+    background: #FFF;
+}
+
+.play-second-game-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1440px;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.play-second-game-online{
+    display: flex;
+    position: relative;
+}
+
+.small-second-img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 63%;
+    left: 75%;
+}
+
+.play-second-game-content{
+    max-width: 353px;
+    margin: 0 auto;
+}
+
+.play-second-game-content p {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.play-second-game-title{
+    text-align: left;
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.play-second-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Play Second Game Section Decoration Ends Here */
+
+/* Career Section Decoration Starts Here */
+.career-section {
+    margin-top: 120px;
+    background: var(--primary-color);
+}
+
+.career-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.career-content p {
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.career-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.left-list,
+.right-list {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.left-list li,
+.right-list li {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.left-list {
+    text-align: left;
+}
+
+.right-list {
+    text-align: right;
+}
+
+.career-container img {
+    width: 100%;
+}
+
+.career-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    background: #FFF;
+    border: 0;
+    color: #FF42A5;
+}
+
+/* Career Section Decoration Ends Here */
+
+/* Games Section Decoration Starts Here */
+.games-section {
+    margin-top: 50px;
+    background: #FFF;
+}
+
+.games-content {
+    max-width: 1440px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    align-items: center;
+    height: 430px;
+}
+
+.games-content li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.games-content li:hover {
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    background: #FFF;
+}
+
+.games-content li img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+/* Games Section Decoration Ends Here */
+
+/* Main Section Decoration Ends Here */
+
+/* Footer Section Decoration Starts Here */
+footer {
+    background: #0B0223;
+}
+
+.footer-container {
+    max-width: 1440px;
+    padding: 125px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.brand-identity2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.brand-identity2 img {
+    max-width: 85px;
+}
+
+
+.gamer2 {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.zone2 {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.amer {
+    color: #FFF;
+}
+
+.footer-menu {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.footer-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.footer-menu li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-menu2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.footer-menu2 li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Footer Section Decoration Ends Here */
