@@ -116,6 +116,10 @@
         left: -5%;
     }
 
+    .play-game-online {
+        flex-direction: column;
+    }
+
     /* Play Game Section Responsive Decoration Ends Here */
 
     /* Play Second Game Section Responsive Decoration Starts Here */
@@ -126,6 +130,10 @@
 
     .play-game-second-main-pic {
         width: 300px;
+    }
+
+    .play-second-game-online {
+        flex-direction: column;
     }
 
     .small-second-img {
@@ -307,6 +315,10 @@
         padding: 30px;
     }
 
+    .play-game-online {
+        flex-direction: column;
+    }
+
     .small-img {
         width: 30%;
         height: 30%;
@@ -327,6 +339,10 @@
         width: 80%;
         margin: 0 auto;
         padding: 30px;
+    }
+
+    .play-second-game-online {
+        flex-direction: column;
     }
 
     .small-second-img {
